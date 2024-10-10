@@ -21,11 +21,11 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/kyle.sunday2/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            Facebook
           </a>
         </div>
       </div>

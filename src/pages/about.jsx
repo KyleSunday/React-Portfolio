@@ -4,7 +4,7 @@ const About = () => (
   <section>
     <h1>About Me</h1>
     <img
-      src="/assets/me.jpg"
+      src="../../../Public/assets/me.jpg"
       alt="Kyle Sunday"
       id="author-photo"
     />
@@ -17,21 +17,15 @@ const About = () => (
       </div>
       <div id="relevant-skills">
       <h2>Relevant Skills</h2>
-      <h3></h3>
-      <p>
-        
-      </p>
+      <h3>HTML, CSS, JavaScript</h3>
+    
       <br />
-      <h3></h3>
-      <p>
-        
-      </p>
+      <h3>React, Node.js</h3>
+      
       <br />
-      <h3></h3>
-
-      <p>
-        
-      </p>
+      <h3>Responsive Design</h3>
+      <br />
+      <h3>Version Control (Git)</h3>
     </div>
     <div id="contact-details">
       <strong>Email:</strong> kyle.sunday@yahoo.com

@@ -12,19 +12,7 @@ const Resume = () => {
       <section className="summary">
         <h2>Summary</h2>
         <p>
-          <strong> </strong>
-          <br />
-          
-          <br />
-          <br />
-          <strong></strong>
-          <br />
-
-          <br />
-          <br />
-          <strong></strong>
-          <br />
-          
+          <strong>I have had multiple years of customer service, jobs in a variety of fields and management skills. </strong>
         </p>
       </section>
 
@@ -216,7 +204,7 @@ const Resume = () => {
       </section>
 
       <a
-        href="/assets/"
+        href="/../../../Public/assets/my-resume.pdf"
         download
         className="resume-link"
       >

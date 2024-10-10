@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <h1>Your Name</h1>
+    <h1>Kyle Sunday</h1>
     <nav>
       <ul>
         <li><Link to="/about">About Me</Link></li>
