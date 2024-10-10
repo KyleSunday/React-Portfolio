@@ -4,7 +4,7 @@ const About = () => (
   <section>
     <h1>About Me</h1>
     <img
-      src="../../../Public/assets/me.jpg"
+      src="./../../../Public/assets/me.jpg"
       alt="Kyle Sunday"
       id="author-photo"
     />
