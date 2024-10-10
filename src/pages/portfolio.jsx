@@ -65,7 +65,6 @@ const projects = [
   },
   {
     title: 'SVG Generator',
-    image: '/assets/',
     githubLink: 'https://github.com/KyleSunday/SVG.git',
   },
   {
@@ -76,22 +75,18 @@ const projects = [
   },
   {
     title: 'Employee Tracker',
-    image: '/assets/',
     githubLink: 'https://github.com/KyleSunday/Employee-Tracker.git',
   },
   {
     title: 'Ecomerce Back End',
-    image: '/assets/',
     githubLink: 'https://github.com/KyleSunday/E-commerce-Back-End.git',
   },
   {
     title: 'Social Network Api',
-    image: '/assets/',
     githubLink: 'https://github.com/KyleSunday/Social-Network-API.git',
   },
   {
     title: 'Read ME Generator',
-    image: '/assets/',
     githubLink: 'https://github.com/KyleSunday/Read-Me-Generator.git',
   },
   {
