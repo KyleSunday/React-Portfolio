@@ -123,7 +123,7 @@ const Portfolio = () => {
           <Project
             key={index}
             title={project.title}
-            image={project.image}
+            src={project.image}
             deployedLink={project.deployedLink}
             githubLink={project.githubLink}
           />
