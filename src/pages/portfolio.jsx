@@ -1,53 +1,65 @@
 import Project from '../components/project.jsx'; // Importing the Project component
 import '../styles/portfolio.css'; // Importing styles specific to the Portfolio component
+import Study from "../../Public/assets/Prework-Study-Guide.png";
+import Horisen from "../../Public/assets/Horisen-Challenge.png";
+import Payroll from "../../Public/assets/Payroll-R-US.png";
+import First from "../../Public/assets/My-First-Portfolio.png'";
+import Atog from "../../Public/assets/Atog-Blog.png";
+import Task from "../../Public/assets/Task-Board.png";
+import Weather from "../../Public/assets/Wonderful-Weather.png";
+import Note from "../../Public/assets/Note-Taker.png";
+import Editor from "../../Public/assets/Text-Editor.png";
+import Battleship from "../../Public/assets/Goat-Battleship.png";
+import GIF from "../../Public/assets/GIF-Rater.png";
+import Ticketing from "../../Public/assets/Event-Ticketing-App.png";
 
 const projects = [
   {
     title: 'Prework Study Guide',
-    image: './../../../Public/assets/Prework-Study-Guide.png',
+    image: {Study},
     deployedLink: 'https://kylesunday.github.io/prework-study-guide/',
     githubLink: 'https://github.com/KyleSunday/prework-study-guide.git',
   },
   {
     title: 'Horisen Challenge',
-    image: './../../../Public/assets/Horisen-Challenge.png',
+    image: {Horisen},
     deployedLink: 'https://kylesunday.github.io/Horisen-Challenge/',
     githubLink: 'https://github.com/KyleSunday/Horisen-Challenge.git',
   },
   {
     title: 'Payroll-R-US',
-    image: './../../../Public/assets/Payroll-R-US.png',
+    image: {Payroll},
     deployedLink: 'https://kylesunday.github.io/Payroll-R-US/',
     githubLink: 'https://github.com/KyleSunday/Payroll-R-US.git',
   },
   {
     title: 'My first Portfolio',
-    image: './../../../Public/assets/My-First-Portfolio.png',
+    image: {First},
     deployedLink: 'https://kylesunday.github.io/Portfolio-Time/',
     githubLink: 'https://github.com/KyleSunday/Portfolio-Time.git',
   },
   
   {
     title: 'Atog Blog',
-    image: './../../../Public/assets/Atog-Blog.png',
+    image: {Atog},
     deployedLink: 'https://kylesunday.github.io/Atog-Blog/',
     githubLink: 'https://github.com/KyleSunday/Atog-Blog.git',
   },
   {
     title: 'Task Board',
-    image: './../../../Public/assets/Task-Board.png',
+    image: {Task},
     deployedLink: 'https://kylesunday.github.io/Task-Board/',
     githubLink: 'https://github.com/KyleSunday/Task-Board.git',
   },
   {
     title: 'Wonderful Weather',
-    image: './../../../Public/assets/Wonderful-Weather.png',
+    image: {Weather},
     deployedLink: 'https://kylesunday.github.io/Wonderful-Weather/',
     githubLink: 'https://github.com/KyleSunday/Wonderful-Weather.git',
   },
   {
     title: 'Note Taker',
-    image: './../../../Public/assets/Note-Taker.png',
+    image: {Note},
     deployedLink: 'https://note-taker-6el9.onrender.com',
     githubLink: 'https://github.com/KyleSunday/Note-Taker.git',
   },
@@ -58,7 +70,7 @@ const projects = [
   },
   {
     title: 'Text Editor',
-    image: './../../../Public/assets/Text-Editor.png',
+    image: {Editor},
     deployedLink: 'https://text-editor-mx83.onrender.com',
     githubLink: 'https://github.com/KyleSunday/Text-Editor.git',
   },
@@ -84,19 +96,19 @@ const projects = [
   },
   {
     title: 'Goat Battleship',
-    image: './../../../Public/assets/Goat-Battleship.png',
+    image: {Battleship},
     deployedLink: 'https://massogon.github.io/goat-battleship/',
     githubLink: 'https://github.com/Massogon/goat-battleship.git',
   },
   {
     title: 'GIF Rater',
-    image: './../../../Public/assets/GIF-Rater.png',
+    image: {GIF},
     deployedLink: 'https://gif-rater-b51u.onrender.com',
     githubLink: 'https://github.com/Massogon/gif-rater.git',
   },
   {
     title: 'Event Ticketing App',
-    image: './../../../Public/assets/Event-Ticketing-App.png',
+    image: {Ticketing},
     deployedLink: 'https://event-ticketing-app.onrender.com',
     githubLink: 'https://github.com/danielleboe/event-ticketing-app.git',
   },
