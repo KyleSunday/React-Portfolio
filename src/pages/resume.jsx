@@ -204,7 +204,7 @@ const Resume = () => {
       </section>
 
       <a
-        href="./assets/my-resume.pdf"
+        href="./../../../Public/assets/my-resume.pdf"
         download
         className="resume-link"
       >
