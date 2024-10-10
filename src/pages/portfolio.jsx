@@ -4,44 +4,44 @@ import '../styles/portfolio.css'; // Importing styles specific to the Portfolio 
 const projects = [
   {
     title: 'Prework Study Guide',
-    image: './assets/Prework-Study-Guide.png',
+    image: '/../../../Public/assets/Prework-Study-Guide.png',
     deployedLink: 'https://kylesunday.github.io/prework-study-guide/',
     githubLink: 'https://github.com/KyleSunday/prework-study-guide.git',
   },
   {
     title: 'Horisen Challenge',
-    image: './assets/Horisen-Challenge.png',
+    image: '/../../../Public/assets/Horisen-Challenge.png',
     deployedLink: 'https://kylesunday.github.io/Horisen-Challenge/',
     githubLink: 'https://github.com/KyleSunday/Horisen-Challenge.git',
   },
   {
     title: 'Payroll-R-US',
-    image: './assets/Payroll-R-US.png',
+    image: '/../../../Public/assets/Payroll-R-US.png',
     deployedLink: 'https://kylesunday.github.io/Payroll-R-US/',
     githubLink: 'https://github.com/KyleSunday/Payroll-R-US.git',
   },
   {
     title: 'My first Portfolio',
-    image: './assets/My-First-Portfolio.png',
+    image: '/../../../Public/assets/My-First-Portfolio.png',
     deployedLink: 'https://kylesunday.github.io/Portfolio-Time/',
     githubLink: 'https://github.com/KyleSunday/Portfolio-Time.git',
   },
   
   {
     title: 'Atog Blog',
-    image: './assets/Atog-Blog.png',
+    image: '/../../../Public/assets/Atog-Blog.png',
     deployedLink: 'https://kylesunday.github.io/Atog-Blog/',
     githubLink: 'https://github.com/KyleSunday/Atog-Blog.git',
   },
   {
     title: 'Task Board',
-    image: './assets/Task-Board.png',
+    image: '/../../../Public/assets/Task-Board.png',
     deployedLink: 'https://kylesunday.github.io/Task-Board/',
     githubLink: 'https://github.com/KyleSunday/Task-Board.git',
   },
   {
     title: 'Wonderful Weather',
-    image: './assets/Wonderful-Weather.png',
+    image: '/../../../Public/assets/Wonderful-Weather.png',
     deployedLink: 'https://kylesunday.github.io/Wonderful-Weather/',
     githubLink: 'https://github.com/KyleSunday/Wonderful-Weather.git',
   },
@@ -58,7 +58,7 @@ const projects = [
   },
   {
     title: 'Text Editor',
-    image: './assets/Text-Editor.png',
+    image: '/../../../Public/assets/Text-Editor.png',
     deployedLink: 'https://text-editor-mx83.onrender.com',
     githubLink: 'https://github.com/KyleSunday/Text-Editor.git',
   },
@@ -84,19 +84,19 @@ const projects = [
   },
   {
     title: 'Goat Battleship',
-    image: './assets/Goat-Battleship.png',
+    image: '/../../../Public/assets/Goat-Battleship.png',
     deployedLink: 'https://massogon.github.io/goat-battleship/',
     githubLink: 'https://github.com/Massogon/goat-battleship.git',
   },
   {
     title: 'GIF Rater',
-    image: './assets/GIF-Rater.png',
+    image: '/../../../Public/assets/GIF-Rater.png',
     deployedLink: 'https://gif-rater-b51u.onrender.com',
     githubLink: 'https://github.com/Massogon/gif-rater.git',
   },
   {
     title: 'Event Ticketing App',
-    image: './assets/Event-Ticketing-App.png',
+    image: '/../../../Public/assets/Event-Ticketing-App.png',
     deployedLink: 'https://event-ticketing-app.onrender.com',
     githubLink: 'https://github.com/danielleboe/event-ticketing-app.git',
   },
