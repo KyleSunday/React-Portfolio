@@ -7,6 +7,7 @@ dotenv.config();
 
 export default defineConfig({
   plugins: [react()],
+  base: 'React-Portfolio',
   server: {
     proxy: {
       '/api': {
