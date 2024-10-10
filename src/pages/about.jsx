@@ -10,7 +10,7 @@ const About = () => (
     />
     <div id="aboutme-text">
       <p>
-        
+      Hi, My name is Kyle Sunday. I am a Web development student new to the world of Coding. My hobbies inculde gaming, Magic the Gathering, reading, and playing roleplaying games. I look forward to learning everything I can going forward.
         <br /><br />
         
       </p>
