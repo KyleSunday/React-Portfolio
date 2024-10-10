@@ -1,6 +1,7 @@
 const Project = ({ title, image, deployedLink, githubLink }) => {
   let hasLink = false
-  // taken string deployedLink
+  const noImage = "https://www.freeiconspng.com/img/23500";
+
 function noDeployedLink() {
   if(deployedLink === undefined){
     return;
@@ -14,6 +15,9 @@ hasLink = true;
     return (
       <div className="project">
         <div className="project-card">
+        { image ? <img src={image} alt={title} className="project-image" /> :
+        <img src={noImage} alt="No Image Available" className="project-image" />
+        }
         <img src={image} alt={title} className="project-image" />
         <h3 className="project-title">{title}</h3>
         <div className="project-links">
