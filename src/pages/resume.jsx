@@ -1,4 +1,5 @@
 import "../styles/resume.css";
+import myResume from "../../Public/assets/my-resume.pdf"
 
 const Resume = () => {
   return (
@@ -204,7 +205,7 @@ const Resume = () => {
       </section>
 
       <a
-        href="./../../../Public/assets/my-resume.pdf"
+        src= {myResume}
         download
         className="resume-link"
       >
