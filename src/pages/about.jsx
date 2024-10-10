@@ -1,10 +1,11 @@
 import "../styles/about.css";
+import Me from "../../Public/assets/me.jpg";
 
 const About = () => (
   <section>
     <h1>About Me</h1>
     <img
-      src="./assets/me.jpg"
+      src={Me}
       alt="Kyle Sunday"
       id="author-photo"
     />
