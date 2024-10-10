@@ -16,50 +16,50 @@ import Ticketing from "../../Public/assets/Event-Ticketing-App.png";
 const projects = [
   {
     title: 'Prework Study Guide',
-    image: {Study},
+    image: Study,
     deployedLink: 'https://kylesunday.github.io/prework-study-guide/',
     githubLink: 'https://github.com/KyleSunday/prework-study-guide.git',
   },
   {
     title: 'Horisen Challenge',
-    image: {Horisen},
+    image: Horisen,
     deployedLink: 'https://kylesunday.github.io/Horisen-Challenge/',
     githubLink: 'https://github.com/KyleSunday/Horisen-Challenge.git',
   },
   {
     title: 'Payroll-R-US',
-    image: {Payroll},
+    image: Payroll,
     deployedLink: 'https://kylesunday.github.io/Payroll-R-US/',
     githubLink: 'https://github.com/KyleSunday/Payroll-R-US.git',
   },
   {
     title: 'My first Portfolio',
-    image: {First},
+    image: First,
     deployedLink: 'https://kylesunday.github.io/Portfolio-Time/',
     githubLink: 'https://github.com/KyleSunday/Portfolio-Time.git',
   },
   
   {
     title: 'Atog Blog',
-    image: {Atog},
+    image: Atog,
     deployedLink: 'https://kylesunday.github.io/Atog-Blog/',
     githubLink: 'https://github.com/KyleSunday/Atog-Blog.git',
   },
   {
     title: 'Task Board',
-    image: {Task},
+    image: Task,
     deployedLink: 'https://kylesunday.github.io/Task-Board/',
     githubLink: 'https://github.com/KyleSunday/Task-Board.git',
   },
   {
     title: 'Wonderful Weather',
-    image: {Weather},
+    image: Weather,
     deployedLink: 'https://kylesunday.github.io/Wonderful-Weather/',
     githubLink: 'https://github.com/KyleSunday/Wonderful-Weather.git',
   },
   {
     title: 'Note Taker',
-    image: {Note},
+    image: Note,
     deployedLink: 'https://note-taker-6el9.onrender.com',
     githubLink: 'https://github.com/KyleSunday/Note-Taker.git',
   },
@@ -70,7 +70,7 @@ const projects = [
   },
   {
     title: 'Text Editor',
-    image: {Editor},
+    image: Editor,
     deployedLink: 'https://text-editor-mx83.onrender.com',
     githubLink: 'https://github.com/KyleSunday/Text-Editor.git',
   },
@@ -96,19 +96,19 @@ const projects = [
   },
   {
     title: 'Goat Battleship',
-    image: {Battleship},
+    image: Battleship,
     deployedLink: 'https://massogon.github.io/goat-battleship/',
     githubLink: 'https://github.com/Massogon/goat-battleship.git',
   },
   {
     title: 'GIF Rater',
-    image: {GIF},
+    image: GIF,
     deployedLink: 'https://gif-rater-b51u.onrender.com',
     githubLink: 'https://github.com/Massogon/gif-rater.git',
   },
   {
     title: 'Event Ticketing App',
-    image: {Ticketing},
+    image: Ticketing,
     deployedLink: 'https://event-ticketing-app.onrender.com',
     githubLink: 'https://github.com/danielleboe/event-ticketing-app.git',
   },
@@ -123,7 +123,7 @@ const Portfolio = () => {
           <Project
             key={index}
             title={project.title}
-            src={project.image}
+            image={project.image}
             deployedLink={project.deployedLink}
             githubLink={project.githubLink}
           />
