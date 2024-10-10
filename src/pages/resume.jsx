@@ -205,7 +205,7 @@ const Resume = () => {
       </section>
 
       <a
-        src= {myResume}
+        href= {myResume}
         download
         className="resume-link"
       >
